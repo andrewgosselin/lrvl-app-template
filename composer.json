@@ -1,5 +1,5 @@
 {
-    "name": "lrvl/template-app",
+    "name": "lrvl/dashboard-app",
     "description": "Dashboard App for the Lrvl Hub.",
     "homepage": "https://cyrexag.com",
     "license": "MIT",
@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Lrvl\\TemplateApp\\TemplateAppProvider"
+                "Lrvl\\TemplateApp\\AppProvider"
             ]
         }
     }

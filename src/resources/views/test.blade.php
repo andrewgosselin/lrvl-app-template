@@ -5,7 +5,7 @@
 </style>
 @endsection
 @section('content')
-Template App
+Dashboard
 @endsection
 @section('scripts')
 @endsection

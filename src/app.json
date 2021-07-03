@@ -1,0 +1,8 @@
+{
+    "name": "Template",
+    "slug": "template",
+    "icon": {
+        "type": "font-awesome",
+        "value": "fas fa-folder"
+    }
+}

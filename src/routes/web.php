@@ -2,7 +2,7 @@
 
 
 Route::middleware(['web'])->group(function () {
-    Route::get('/apps/template', function() {
-        return view('template::index');
-    })->name("apps.dashboard");
+    Route::get('/apps/' . config('apps.template.slug'), function() {
+        return view(config('apps.template.slug') . '::test');
+    })->name("apps.template");
 });
